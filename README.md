@@ -36,3 +36,10 @@
 
 - 사용자 이름과 할 일 목록은 브라우저의 로컬 스토리지에 저장됩니다.
 - OpenWeatherMap API 키는 로컬 스토리지에 저장되며, 서버로 전송되지 않습니다.
+
+## 온라인 접속
+
+이 프로젝트는 GitHub Pages를 통해 호스팅되고 있습니다. 다음 링크를 통해 온라인으로 접속할 수 있습니다:
+
+[Momentum 클론 접속하기](https://dshomin.github.io/vanila_js/momentum/index.html)
+
