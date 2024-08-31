@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="이름을 입력하세요" />
+        <button type="submit">로그인</button>
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="할 일을 입력하고 Enter를 누르세요" required>
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- API 키 입력 폼 추가 -->
+    <form id="api-key-form" class="hidden">
+        <input type="text" id="api-key-input" placeholder="OpenWeatherMap API 키를 입력하세요" required>
+        <button type="submit">확인</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/dotenv@10.0.0/lib/main.min.js"></script>
+    <script>
+        dotenv.config();
+    </script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
